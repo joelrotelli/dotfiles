@@ -4,7 +4,7 @@
 ## Gems
 #####################
 
-gem install jekyll;
+#gem install jekyll;
 gem install sass;
 gem install compass;
 
@@ -13,24 +13,24 @@ gem install compass;
 ###################################
 
 # Install
-command -v brew >/dev/null 2>&1 || { ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"; }
+#command -v brew >/dev/null 2>&1 || { ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"; }
 
 # Update
 brew update;
 
 # Modules
 brew install caskroom/cask/brew-cask;
-brew install casperjs;
+#brew install casperjs;
 brew install composer;
 brew install curl;
-brew install git;
-brew install imagemagick;
-brew install mackup;
-brew install phplint;
-brew install phpunit;
-brew install ttfautohint fontforge --with-python
+#brew install git;
+#brew install imagemagick;
+#brew install mackup;
+#brew install phplint;
+#brew install phpunit;
+#brew install ttfautohint fontforge --with-python
 brew install wget;
-brew install youtube-dl;
+#brew install youtube-dl;
 
 #####################
 # Cask : Software
@@ -42,54 +42,60 @@ brew tap caskroom/versions
 # Utilities
 brew cask install 1password;
 brew cask install betterzipql;
-brew cask install qlcolorcode;
-brew cask install qlmarkdown;
-brew cask install qlprettypatch;
-brew cask install qlstephen;
-brew cask install quicklook-json;
-brew cask install suspicious-package;
+#brew cask install qlcolorcode;
+#brew cask install qlmarkdown;
+#brew cask install qlprettypatch;
+#brew cask install qlstephen;
+#brew cask install quicklook-json;
+#brew cask install suspicious-package;
 brew cask install appcleaner;
 brew cask install disk-inventory-x;
 brew cask install divvy;
-brew cask install evernote;
+#brew cask install evernote;
 brew cask install flux;
-brew cask install handbrake;
-brew cask install onyx;
-brew cask install sizeup;
+#brew cask install handbrake;
+#brew cask install onyx;
+#brew cask install sizeup;
 brew cask install skype;
 brew cask install slack;
 brew cask install teamviewer;
-brew cask install the-unarchiver;
-brew cask install tripmode;
-brew cask install tunnelbear;
+#brew cask install the-unarchiver;
+#brew cask install tripmode;
+#brew cask install tunnelbear;
+brew cask install fish;
+brew cask install dash;
+brew cask install lastpass;
 
 # Work
-brew cask install imageoptim;
+#brew cask install imageoptim;
 brew cask install livereload;
-brew cask install mamp;
+#brew cask install mamp;
 brew cask install sequel-pro;
-brew cask install sourcetree;
-brew cask install sublime-text3;
-brew cask install svg-cleaner;
-brew cask install textexpander;
-brew cask install transmit;
+#brew cask install sourcetree;
+#brew cask install sublime-text3;
+#brew cask install svg-cleaner;
+#brew cask install textexpander;
+#brew cask install transmit;
 brew cask install vagrant-manager;
 brew cask install vagrant;
 brew cask install virtualbox-extension-pack;
 brew cask install virtualbox;
+brew cask install atom;
+brew cask install phpstorm;
+brew cask install filezilla;
 
 # Browsers
 brew cask install google-chrome;
-brew cask install google-chrome-canary;
+#brew cask install google-chrome-canary;
 brew cask install firefox;
-brew cask install firefox-nightly;
+#brew cask install firefox-nightly;
 
 # Medias
-brew cask install spotify;
+#brew cask install spotify;
 brew cask install vlc;
 
 # Libs & stuff
-brew cask install xquartz;
+#brew cask install xquartz;
 
 ###################################
 ## Cleanup
@@ -122,7 +128,6 @@ command -v grunt >/dev/null 2>&1 || { npm install -g grunt-cli; }
 ###################################
 
 # WP-Cli
-curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar;
-chmod +x wp-cli.phar
-sudo mv wp-cli.phar /usr/local/bin/wp
-
+#curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar;
+#chmod +x wp-cli.phar
+#sudo mv wp-cli.phar /usr/local/bin/wp
